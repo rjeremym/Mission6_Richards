@@ -12,7 +12,9 @@ namespace Mission6_Richards.Models
         {
             // Leave blank for now
         }
-        public DbSet<Application> Applications { get; set; }
+        public DbSet<Movie> Movies { get; set; }
+        public DbSet<Category> Categories { get; set; } 
+
 
 
     }
